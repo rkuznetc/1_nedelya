@@ -126,7 +126,6 @@ public:
             temp = divisible.coeffs[i] / divider.coeffs[divider.N];
             coeffs_backwards.push_back(temp);
             for(int j = 0; j <= divider.N; j++) {divisible.coeffs[divisible.N - j] -= temp * divider.coeffs[divider.N - j];}
-            std::cout << divisible;
             divisible.N--;
         }
 
@@ -254,7 +253,6 @@ public:
                 (*std::next(it1, divisible_power - j)).second -= temp *
                     (*std::next(it2, divider.coeffs.size() - j)).second;
             }
-            std::cout << divisible;
             divisible_power--;
         }
 
