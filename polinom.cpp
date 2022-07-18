@@ -292,8 +292,6 @@ public:
 //          Проверка первого класса v1
 
 // int main() {
-    // ПРОВЕРКА 
-    // constexpr для конструкторов?
     // std::vector<int> vect1 {1, 2, 3};
     // std::vector<int> vect2 {3, 4, 5, 6, 7};
     // Polynomial_v1 pol1(vect1);
